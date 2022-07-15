@@ -1,0 +1,13 @@
+int motor = 8;
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(motor, HIGH);
+  delay(2000); // Wait for 1000 millisecond(s)
+  digitalWrite(motor, LOW);
+  delay(500); // Wait for 1000 millisecond(s)
+}
